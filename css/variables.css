@@ -1,0 +1,76 @@
+/* ==========================================================
+   IL VÉRTICE FOOD LAB — VARIABLES DEL SISTEMA VISUAL
+   Aquí viven los colores, tipografías y medidas de toda la web.
+   Si cambias un valor aquí, cambia en todas las secciones.
+   ========================================================== */
+
+/* ---------- Tipografías (guardadas dentro del proyecto) ---------- */
+@font-face {
+  font-family: "Fraunces";
+  src: url("../assets/fonts/fraunces-latin-wght-normal.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../assets/fonts/dm-sans-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../assets/fonts/dm-sans-latin-500-normal.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../assets/fonts/dm-sans-latin-700-normal.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* ---------- Colores de la marca (extraídos del logotipo) ---------- */
+  --rojo: #ad1e1d;          /* principal y acentos */
+  --rojo-oscuro: #8a1716;   /* al presionar botones */
+  --azul: #8cbce0;          /* secundario */
+  --azul-claro: #eaf3fa;    /* tono suave del azul para fondos */
+  --gris: #9399a0;          /* neutro (bordes, decoración) */
+  --gris-claro: #eef0f2;    /* tono suave del gris */
+  --negro: #111111;         /* texto y contornos */
+  --blanco: #ffffff;
+  --texto-suave: #444a51;   /* texto secundario (buen contraste sobre blanco) */
+
+  /* Verde oficial de WhatsApp, solo para el botón flotante */
+  --whatsapp: #25d366;
+
+  /* ---------- Tipografía ---------- */
+  --fuente-titulos: "Fraunces", Georgia, "Times New Roman", serif;
+  --fuente-texto: "DM Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+
+  /* ---------- Contornos y sombras estilo sello / packaging ---------- */
+  --contorno: 2.5px solid var(--negro);
+  --sombra: 4px 4px 0 var(--negro);
+  --sombra-chica: 3px 3px 0 var(--negro);
+  --radio: 18px;
+  --radio-boton: 14px;
+
+  /* ---------- Espaciados ---------- */
+  --gutter: 20px;           /* margen lateral en móvil */
+  --seccion-y: 64px;        /* espacio vertical entre secciones en móvil */
+  --ancho-max: 1120px;
+  --alto-header: 68px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --gutter: 32px;
+    --seccion-y: 96px;
+    --alto-header: 76px;
+  }
+}

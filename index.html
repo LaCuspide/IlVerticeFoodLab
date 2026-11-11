@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Il Vértice Food Lab | Croquetas congeladas, parrillas y catering en Lima</title>
+  <meta name="description" content="Il Vértice Food Lab: croquetas congeladas para cocinar en casa y servicios de parrillas, catering y celebraciones en Lima. Pide o cotiza por WhatsApp.">
+  <meta name="theme-color" content="#ad1e1d">
+
+  <!-- ===== Al compartir el enlace (WhatsApp, Facebook, etc.) ===== -->
+  <!-- IMPORTANTE: cuando publiques la web, reemplaza TU-USUARIO y NOMBRE-DEL-REPO
+       por los reales (o por tu dominio) en las 3 líneas marcadas con ◄◄◄.
+       Las redes necesitan la dirección completa para mostrar la imagen. -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_PE">
+  <meta property="og:site_name" content="Il Vértice Food Lab">
+  <meta property="og:title" content="Il Vértice Food Lab | Dulce &amp; Salado">
+  <meta property="og:description" content="Croquetas congeladas para cocinar en casa, parrillas, catering y celebraciones. Pide o cotiza por WhatsApp.">
+  <meta property="og:url" content="https://TU-USUARIO.github.io/NOMBRE-DEL-REPO/"> <!-- ◄◄◄ -->
+  <meta property="og:image" content="https://TU-USUARIO.github.io/NOMBRE-DEL-REPO/assets/img/og-image.jpg"> <!-- ◄◄◄ -->
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Sello de Il Vértice Food Lab: chef con gorro y gafas, Dulce &amp; Salado">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://TU-USUARIO.github.io/NOMBRE-DEL-REPO/"> <!-- ◄◄◄ -->
+
+  <!-- Íconos de la pestaña -->
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/png" href="assets/icons/icon-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+
+  <!-- Carga rápida de lo esencial -->
+  <link rel="preload" href="assets/fonts/fraunces-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/dm-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/logo/sello.webp" as="image" type="image/webp">
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+
+  <!-- Datos para buscadores (Google) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Il Vértice Food Lab",
+    "slogan": "Dulce & Salado",
+    "description": "Croquetas congeladas para cocinar en casa y servicios gastronómicos: parrillas, catering, cumpleaños y eventos privados.",
+    "telephone": "+51943590093"
+  }
+  </script>
+</head>
+
+<body>
+  <a class="saltar-contenido" href="#contenido">Saltar al contenido</a>
+
+  <!-- Íconos reutilizables -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-whatsapp" viewBox="0 0 24 24">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </symbol>
+  </svg>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+    <div class="contenedor header__interior">
+      <a class="marca" href="#inicio" aria-label="Il Vértice Food Lab, ir al inicio">
+        <img src="assets/logo/sello.webp" alt="" width="50" height="50">
+        <span class="marca__texto">Il Vértice<small>Food Lab</small></span>
+      </a>
+
+      <button class="menu-boton" id="menu-boton" type="button"
+              aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <svg class="abrir icono--linea" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg class="cerrar icono--linea" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+
+      <nav class="nav" id="menu" aria-label="Principal">
+        <ul class="nav__lista">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <a class="btn" data-wa="general" href="#contacto">
+          <svg class="icono" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg>
+          Escríbenos
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ================= INICIO / HERO ================= -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <div class="contenedor hero__interior">
+        <div class="hero__texto-bloque">
+          <span class="hero__etiqueta">Dulce &amp; Salado</span>
+          <h1 class="hero__titulo" id="hero-titulo">
+            Dulce &amp; salado, hecho para <em>compartir</em>
+          </h1>
+          <p class="hero__texto">
+            Croquetas congeladas listas para cocinar en casa, y parrillas,
+            catering y celebraciones a tu medida.
+          </p>
+          <div class="hero__acciones">
+            <a class="btn btn--grande" href="#productos">Ver productos</a>
+            <a class="btn btn--grande btn--blanco" href="#servicios">Servicios para eventos</a>
+          </div>
+          <p class="hero__nota">
+            <svg class="icono" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg>
+            Pedidos y cotizaciones por WhatsApp
+          </p>
+        </div>
+
+        <div class="hero__sello">
+          <img src="assets/logo/sello.webp" width="720" height="720"
+               alt="Sello de Il Vértice Food Lab: un chef con gorro y gafas, brazos cruzados. Dulce &amp; Salado, establecido en 2026."
+               fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <!-- Cinta de marca -->
+    <div class="cinta" aria-hidden="true">
+      <div class="contenedor cinta__interior">
+        <span>Dulce</span><span aria-hidden="true">&#10022;</span>
+        <span>Salado</span><span aria-hidden="true">&#10022;</span>
+        <span>Food Lab</span>
+      </div>
+    </div>
+
+    <!-- ================= CÓMO PEDIR ================= -->
+    <section class="seccion" aria-labelledby="pasos-titulo">
+      <div class="contenedor">
+        <div class="seccion__cabecera">
+          <span class="etiqueta">Cómo pedir</span>
+          <h2 class="seccion__titulo" id="pasos-titulo">Así de fácil</h2>
+        </div>
+        <ol class="pasos">
+          <li class="paso">
+            <h3>Elige</h3>
+            <p>Mira los productos o los servicios y toca el botón de lo que te interesa.</p>
+          </li>
+          <li class="paso">
+            <h3>Escríbenos</h3>
+            <p>Se abre WhatsApp con tu mensaje ya preparado. Solo tienes que enviarlo.</p>
+          </li>
+          <li class="paso">
+            <h3>Coordinamos</h3>
+            <p>Confirmamos disponibilidad, pago y entrega, o preparamos una cotización para tu evento.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= PRODUCTOS ================= -->
+    <section class="seccion seccion--azul" id="productos" aria-labelledby="productos-titulo">
+      <div class="contenedor">
+        <div class="seccion__cabecera">
+          <span class="etiqueta">Productos</span>
+          <h2 class="seccion__titulo" id="productos-titulo">Para cocinar en casa</h2>
+          <p class="seccion__intro">
+            Nuestra primera línea: croquetas congeladas. Pide por WhatsApp y
+            coordinamos disponibilidad y entrega.
+          </p>
+        </div>
+
+        <!-- Las tarjetas se dibujan desde js/data/products.js -->
+        <div class="rejilla rejilla--productos" id="lista-productos"></div>
+
+        <div class="rejilla-nota">
+          <p>¿Tienes una consulta sobre nuestros productos?</p>
+          <a class="btn" data-wa="general" href="#contacto">
+            <svg class="icono" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg>
+            Escríbenos
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICIOS ================= -->
+    <section class="seccion" id="servicios" aria-labelledby="servicios-titulo">
+      <div class="contenedor">
+        <div class="seccion__cabecera">
+          <span class="etiqueta">Servicios</span>
+          <h2 class="seccion__titulo" id="servicios-titulo">Tu reunión, bien atendida</h2>
+          <p class="seccion__intro">
+            Cuéntanos qué vas a celebrar y te preparamos una cotización personalizada.
+          </p>
+        </div>
+
+        <!-- Las tarjetas se dibujan desde js/data/services.js -->
+        <div class="rejilla rejilla--servicios" id="lista-servicios"></div>
+      </div>
+    </section>
+
+    <!-- ================= SOBRE NOSOTROS ================= -->
+    <section class="seccion seccion--azul" id="nosotros" aria-labelledby="nosotros-titulo">
+      <div class="contenedor nosotros">
+        <div class="nosotros__texto">
+          <span class="etiqueta">Sobre nosotros</span>
+          <h2 class="seccion__titulo" id="nosotros-titulo">Cocina con carácter</h2>
+          <p>
+            Il Vértice Food Lab es un emprendimiento gastronómico independiente
+            nacido en 2026, con una idea sencilla: lo dulce y lo salado, hechos con pasión.
+          </p>
+          <p>
+            Buscamos calidad y sabor en cada preparación, con creatividad y con
+            ganas de crear experiencias gastronómicas. Por eso trabajamos tanto
+            productos para llevar a casa como servicios para tus reuniones y celebraciones.
+          </p>
+        </div>
+
+        <div class="valores">
+          <div class="valor">
+            <h3>Pasión</h3>
+            <p>Por la gastronomía y por compartirla.</p>
+          </div>
+          <div class="valor">
+            <h3>Calidad y sabor</h3>
+            <p>Lo que buscamos en cada preparación.</p>
+          </div>
+          <div class="valor">
+            <h3>Creatividad</h3>
+            <p>En las recetas y en cada propuesta.</p>
+          </div>
+          <div class="valor">
+            <h3>Versatilidad</h3>
+            <p>Productos y servicios en una sola marca.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= LLAMADO FINAL ================= -->
+    <section class="llamado" aria-labelledby="llamado-titulo" data-oculta-flotante>
+      <div class="contenedor llamado__interior">
+        <h2 id="llamado-titulo">¿Listo para pedir o cotizar?</h2>
+        <p>Escríbenos por WhatsApp y coordinamos disponibilidad, entrega y fechas.</p>
+        <a class="btn btn--grande btn--blanco" data-wa="general" href="#contacto">
+          <svg class="icono" aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg>
+          Escribir por WhatsApp
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= CONTACTO / FOOTER ================= -->
+  <footer class="footer" id="contacto" data-oculta-flotante>
+    <div class="contenedor footer__interior">
+      <div>
+        <div class="footer__marca">
+          <img src="assets/logo/sello.webp" alt="" width="72" height="72" loading="lazy">
+          <p>Il Vértice<small>Food Lab · Dulce &amp; Salado</small></p>
+        </div>
+      </div>
+
+      <div>
+        <h3>Contacto</h3>
+        <ul class="footer__lista" id="contacto-lista"></ul>
+        <div class="footer__redes" id="bloque-redes" hidden>
+          <h3>Redes</h3>
+          <ul class="footer__lista" id="redes-lista"></ul>
+        </div>
+      </div>
+
+      <div>
+        <h3>Navega</h3>
+        <ul class="footer__lista">
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="contenedor footer__legal">
+      &copy; <span id="anio">2026</span> Il Vértice Food Lab. Todos los derechos reservados.
+    </div>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a class="flotante" id="flotante-wa" data-wa="general" href="#contacto" aria-label="Escribir por WhatsApp">
+    <svg aria-hidden="true" focusable="false"><use href="#i-whatsapp"></use></svg>
+    <span class="flotante__texto">WhatsApp</span>
+  </a>
+
+  <!-- Orden importante: configuración → datos → lógica -->
+  <script src="js/config.js"></script>
+  <script src="js/data/products.js"></script>
+  <script src="js/data/services.js"></script>
+  <script src="js/whatsapp.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
